@@ -12,10 +12,11 @@ public class Program
 
     public static void Main()
     {
-        // Your code here
         DrawBoard();
         GetInput();
 
+        // leave this command at the end so your program does not close automatically
+        Console.ReadLine();
     }
 
     public static void GetInput()
@@ -25,38 +26,31 @@ public class Program
         int row = Int32.Parse(Console.ReadLine());
         Console.WriteLine("Enter Column:");
         int column = Int32.Parse(Console.ReadLine());
-        // Your code here
-        return;
     }
 
     public static void PlaceMark(int row, int column)
     {
-        // Your code here
-        return;
+       // your code goes here
     }
 
     public static bool CheckForWin()
     {
-        // Your code here
-        return false;
+        // your code goes here
     }
 
     public static bool HorizontalWin()
     {
-        // Your code here
-        return false;
+       // your code goes here
     }
 
     public static bool VerticalWin()
     {
-        // Your code here
-        return false;
+        // your code goes here
     }
 
     public static bool DiagonalWin()
     {
-        // Your code here
-        return false;
+        // your code goes here
     }
 
     public static void DrawBoard()
@@ -67,6 +61,5 @@ public class Program
         Console.WriteLine("1 " + String.Join("|", board[1]));
         Console.WriteLine("  -----");
         Console.WriteLine("2 " + String.Join("|", board[2]));
-        return;
     }
 }

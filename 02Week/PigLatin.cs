@@ -6,12 +6,12 @@ public class Program
     {
         Console.WriteLine("What's the word?");
         string word = Console.ReadLine();
-        Console.WriteLine(translateWord(word));
+        Console.WriteLine(TranslateWord(word));
+        Console.ReadLine();
     }
     
-    public static string translateWord(string word)
+    public static string TranslateWord(string word)
     {
-        // Your code here
-        return word;
+       // your code goes here
     }
 }
